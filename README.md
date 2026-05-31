@@ -90,6 +90,19 @@ podman run -d \
   -e OLLAMA_KEEP_ALIVE=300 \
   docker.io/ollama/ollama:latest
 ```
+### ✔ ЛУЧШИЙ ВАРИАНТ!!!!
+
+```bash
+podman run -d \
+  --name ollama \
+  --restart=unless-stopped \
+  -p 11434:11434 \
+  -v ollama:/root/.ollama:Z \
+  --memory=12g \
+  --cpus=10 \
+  -e OLLAMA_KEEP_ALIVE=300 \
+  docker.io/ollama/ollama:latest
+```
 
 ---
 
