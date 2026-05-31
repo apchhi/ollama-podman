@@ -81,7 +81,9 @@ podman exec -it ollama env OLLAMA_MAX_PARALLEL_DOWNLOADS=1 ollama pull qwen3:8b
 ```bash
 podman stop ollama
 podman rm ollama
-
+```
+and &
+```bash
 podman run -d \
   --name ollama \
   --network host \
