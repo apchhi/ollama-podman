@@ -172,11 +172,11 @@ podman volume rm ollama
 
 ---
 
-Если хочешь — могу добавить в README разделы:
+Если хочешь:
 
 - **GPU‑ускорение (Intel/AMD iGPU через Vulkan)**
 - **docker-compose / podman-compose**
 - **интеграция с VS Code (Llama‑Coder)**
 - **как использовать модели из хоста внутри Podman**
 
-Скажи, что добавить.
+
